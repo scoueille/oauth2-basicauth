@@ -1,0 +1,19 @@
+{
+    "name": "scoueille/oauth2-basicauth",
+    "description": "Description of project oauth2-basicauth.",
+    "authors": [
+        {
+            "name": "Sebastien Coueille",
+            "email": "sebastien.coueille@per-augusta.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "cirrusidentity/simplesamlphp-module-authoauth2": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scoueille\\OAuth2\\Client\\": "src"
+        }
+    }
+}
