@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=7.3.0",
-        "cirrusidentity/simplesamlphp-module-authoauth2": "dev-master"
+        "cirrusidentity/simplesamlphp-module-authoauth2": "4.*"
     },
     "autoload": {
         "psr-4": {
